@@ -1,0 +1,6 @@
+[
+    {"login":"Admin" ,"password": "password" },
+    {"login":"admin" ,"password": "pass123" },
+    {"login":"Suraj" ,"password": "Password" },
+    {"login":"ritik" ,"password": "pass@word" }
+]

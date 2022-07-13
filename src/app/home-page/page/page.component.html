@@ -1,0 +1,24 @@
+<div class="heading border rounded mx-auto p-3 ">
+    <div class="text-white mt-4 font-weight-bold text-uppercase col-sm">
+        Home Page Component
+    </div>
+    <div class="logo" >
+        {{login}}
+    </div>
+
+</div>
+<div>
+    <div class=" border border-dark rounded text-center row mx-auto my-5" style="width:500px">
+        <ul style="list-style-type:none" class="col-sm">
+            <li *ngFor="let i of dataGet">
+                {{i.login}} 
+            </li>
+        </ul>
+        <ul style="list-style-type:none" class="col-sm">
+            <li *ngFor="let i of dataGet">
+                {{i.password}} 
+            </li>
+        </ul>
+    </div>
+</div>
+
